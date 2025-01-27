@@ -33,22 +33,30 @@
 </head>
 
 <body>
-    <main class="max-w-screen-xl mx-auto px-20">
+    <main class="max-w-screen-xl mx-auto px-5 lg:px-20">
         <!-- header section -->
-        <header class="flex items-center border">
+        <header class="lg:flex items-center mt-5">
             <!-- header left -->
             <div>
-                <h1 class="text-titleColor text-5xl font-bold">It's good <br> tea time at The <br> Tea House</h1>
+                <h1 class="text-titleColor text-4xl lg:text-6xl font-bold">It's good <br> tea time at The <br> Tea House</h1>
                 <p class="text-descriptionColor my-3 w-3/4">Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your
                     Taste Buds.</p>
-                <button class="px-4 py-2 rounded-lg text-whiteColor text-xl bg-gradient-to-r from-btnGradientColor_1 to-btnGradientColor_2 hover:from-btnGradientColor_2 hover:to-btnGradientColor_1">Explore More <span><i class="fa-solid fa-arrow-right-long -rotate-45"></i></span></button>
+                <button class="px-4 py-2 rounded-lg text-whiteColor text-xl bg-gradient-to-r from-btnGradientColor_1 to-btnGradientColor_2 hover:from-btnGradientColor_2 hover:to-btnGradientColor_1">Explore More <span><i class="fa-solid fa-arrow-right-long -rotate-45 text-lg"></i></span></button>
             </div>
             <!-- header right -->
-            <div>
+            <div class="relative mt-10 overflow-hidden">
                 <!-- banner img -->
-                <img src="./images/banner.png" alt="header banner photo">
-                <!-- banner rating box -->
-                 <div></div>
+                <img class="w-full" src="./images/banner.png" alt="header banner photo">
+                <!-- banner rating card -->
+                 <div class="bg-whiteColor flex items-center gap-3 py-3 px-5 shadow-lg rounded-lg absolute top-2/3 lg:top-80 left-10">
+                    <div>
+                        <i class="fa-solid fa-star text-3xl text-yellow-500"></i>
+                    </div>
+                    <div>
+                        <h3 class="text-2xl font-bold text-titleColor">5.00</h3>
+                        <p class="text-descriptionColor">Trust Pilot Ratings</p>
+                    </div>
+                 </div>
             </div>
         </header>
 
