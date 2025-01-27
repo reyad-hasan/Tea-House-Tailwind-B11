@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./images/client.png" type="image/x-icon">
+    <title>Tea-House-Tailwind</title>
+    <!-- tailwind cdn link -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- google font cdn link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <!-- font awesome cdn link -->
+    <script src="https://kit.fontawesome.com/cd6c7339f0.js" crossorigin="anonymous"></script>
+    <!-- tailwind config -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        titleColor: '#1C1C1C',
+                        descriptionColor: '#777777',
+                        whiteColor: '#FFFFFF',
+                        btnGradientColor_1: '#ff8335',
+                        btnGradientColor_2: '#ff0502',
+                }
+            }
+        }
+        }
+    </script>
+</head>
+
+<body>
+    <main class="max-w-screen-xl mx-auto px-20">
+        <!-- header section -->
+        <header class="flex items-center border">
+            <!-- header left -->
+            <div>
+                <h1 class="text-titleColor text-5xl font-bold">It's good <br> tea time at The <br> Tea House</h1>
+                <p class="text-descriptionColor my-3 w-3/4">Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your
+                    Taste Buds.</p>
+                <button class="px-4 py-2 rounded-lg text-whiteColor text-xl bg-gradient-to-r from-btnGradientColor_1 to-btnGradientColor_2 hover:from-btnGradientColor_2 hover:to-btnGradientColor_1">Explore More <span><i class="fa-solid fa-arrow-right-long -rotate-45"></i></span></button>
+            </div>
+            <!-- header right -->
+            <div>
+                <!-- banner img -->
+                <img src="./images/banner.png" alt="header banner photo">
+                <!-- banner rating box -->
+                 <div></div>
+            </div>
+        </header>
+
+    </main>
+</body>
+
+</html>
