@@ -26,6 +26,11 @@
                         btnGradientColor_1: '#ff8335',
                         btnGradientColor_2: '#ff0502',
                         cardGradientColor_1: '#f5f5f5',
+                        box_1_GradientColor_1: '#ffe5e5',
+                        box_1_GradientColor_2: '#fff2ea',
+                        box_2Bg: '#fcf6e9',
+                        box_3Bg: '#eef1eb',
+                        box_4_GradientColor_1: '#dcdcdc',
                     }
                 }
             }
@@ -79,7 +84,8 @@
             <!-- our featured card container -->
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 mt-5">
                 <!-- card-1 -->
-                <div class="bg-gradient-to-t from-whiteColor to-cardGradientColor_1 text-center p-8 rounded-lg shadow-md">
+                <div
+                    class="bg-gradient-to-t from-whiteColor to-cardGradientColor_1 text-center p-8 rounded-lg shadow-md">
                     <div class="flex justify-center">
                         <img src="./images/tea-1.png" alt="Milk tea photos">
                     </div>
@@ -87,7 +93,8 @@
                     <p class="text-descriptionColor">Creamer could be replaced by fresh milk</p>
                 </div>
                 <!-- card-2 -->
-                <div class="bg-gradient-to-t from-whiteColor to-cardGradientColor_1 text-center p-8 rounded-lg shadow-md">
+                <div
+                    class="bg-gradient-to-t from-whiteColor to-cardGradientColor_1 text-center p-8 rounded-lg shadow-md">
                     <div class="flex justify-center">
                         <img src="./images/tea-2.png" alt="Milk tea photos">
                     </div>
@@ -95,7 +102,8 @@
                     <p class="text-descriptionColor">Creamer could be replaced by fresh milk</p>
                 </div>
                 <!-- card-3 -->
-                <div class="bg-gradient-to-t from-whiteColor to-cardGradientColor_1 text-center p-8 rounded-lg shadow-md">
+                <div
+                    class="bg-gradient-to-t from-whiteColor to-cardGradientColor_1 text-center p-8 rounded-lg shadow-md">
                     <div class="flex justify-center">
                         <img src="./images/tea-3.png" alt="Milk tea photos">
                     </div>
@@ -103,13 +111,49 @@
                     <p class="text-descriptionColor">Creamer could be replaced by fresh milk</p>
                 </div>
                 <!-- card-4 -->
-                <div class="bg-gradient-to-t from-whiteColor to-cardGradientColor_1 text-center p-8 rounded-lg shadow-md">
+                <div
+                    class="bg-gradient-to-t from-whiteColor to-cardGradientColor_1 text-center p-8 rounded-lg shadow-md">
                     <div class="flex justify-center">
                         <img src="./images/tea-4.png" alt="Milk tea photos">
                     </div>
                     <h3 class="text-titleColor text-2xl font-bold mt-4">Lemon Tea</h3>
                     <p class="text-descriptionColor">Creamer could be replaced by fresh milk</p>
                 </div>
+            </div>
+        </section>
+
+        <!-- Great Tea section -->
+        <section class="mt-10 lg:mt-20 grid grid-cols-1 lg:grid-cols-2">
+            <!-- great left -->
+            <div class="grid grid-cols-2 grid-rows-3 gap-5 lg:w-5/6">
+                <!-- box-1 -->
+                <div class="bg-gradient-to-r from-box_1_GradientColor_1 to-box_1_GradientColor_2 rounded-lg"></div>
+                <!-- box-2 -->
+                <div class="bg-box_2Bg rounded-lg row-span-2 py-5">
+                    <img class="mx-auto" src="./images/fresh-1.png" alt="Fresh one photo">
+                </div>
+                <!-- box-3 -->
+                <div class="bg-box_3Bg rounded-lg row-span-2 py-5">
+                    <img class="mx-auto" src="./images/fresh-2.png" alt="fresh two photo">
+                </div>
+                <!-- box-4 -->
+                <div class="bg-gradient-to-r from-box_4_GradientColor_1 to-whitColor rounded-lg"></div>
+            </div>
+            <!-- great right -->
+            <div class="flex flex-col justify-center mt-5">
+                <h1 class="text-titleColor text-2xl md:text-4xl font-bold w-3/4">Great Tea, Freshly Presented</h1>
+                <p class="text-descriptionColor mt-2">The meaning of gong cha is chanese is to provide the best tea to
+                    emperor from all possessions . It represents the highest quality and self expectation. Establishing
+                    in 2006, Gong cha had been deeply appreciated by its custoers because of good words of mouth and
+                    unique customized service orginated from Taiwan.</p>
+                <br>
+                <h3 class="text-titleColor text-xl font-bold">Unique Taste</h3>
+                <p class="text-descriptionColor">A Unique and different style from other teapots gives a luxurious
+                    and minimalist impression</p>
+                <br>
+                <h3 class="text-titleColor text-xl font-bold">Premium Quality</h3>
+                <p class="text-descriptionColor">Premium Quality that makes tea more elegant and more durable when
+                    you use it elegant and.</p>
             </div>
         </section>
 
