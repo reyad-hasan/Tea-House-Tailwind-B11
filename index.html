@@ -25,9 +25,10 @@
                         whiteColor: '#FFFFFF',
                         btnGradientColor_1: '#ff8335',
                         btnGradientColor_2: '#ff0502',
+                        cardGradientColor_1: '#f5f5f5',
+                    }
                 }
             }
-        }
         }
     </script>
 </head>
@@ -38,17 +39,22 @@
         <header class="lg:flex items-center mt-5">
             <!-- header left -->
             <div>
-                <h1 class="text-titleColor text-4xl lg:text-6xl font-bold">It's good <br> tea time at The <br> Tea House</h1>
-                <p class="text-descriptionColor my-3 w-3/4">Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your
+                <h1 class="text-titleColor text-4xl lg:text-6xl font-bold">It's good <br> tea time at The <br> Tea House
+                </h1>
+                <p class="text-descriptionColor my-3 w-3/4">Tea and Botanical Solutions Supplier Give Optimum
+                    Satisfaction To Your
                     Taste Buds.</p>
-                <button class="px-4 py-2 rounded-lg text-whiteColor text-xl bg-gradient-to-r from-btnGradientColor_1 to-btnGradientColor_2 hover:from-btnGradientColor_2 hover:to-btnGradientColor_1">Explore More <span><i class="fa-solid fa-arrow-right-long -rotate-45 text-lg"></i></span></button>
+                <button
+                    class="px-4 py-2 rounded-lg text-whiteColor text-xl bg-gradient-to-r from-btnGradientColor_1 to-btnGradientColor_2 hover:from-btnGradientColor_2 hover:to-btnGradientColor_1">Explore
+                    More <span><i class="fa-solid fa-arrow-right-long -rotate-45 text-lg"></i></span></button>
             </div>
             <!-- header right -->
-            <div class="relative mt-10 overflow-hidden">
+            <div class="relative mt-10">
                 <!-- banner img -->
                 <img class="w-full" src="./images/banner.png" alt="header banner photo">
                 <!-- banner rating card -->
-                 <div class="bg-whiteColor flex items-center gap-3 py-3 px-5 shadow-lg rounded-lg absolute top-2/3 lg:top-80 left-10">
+                <div
+                    class="bg-whiteColor flex items-center gap-3 py-3 px-5 shadow-lg rounded-lg absolute top-2/3 lg:top-96 left-10">
                     <div>
                         <i class="fa-solid fa-star text-3xl text-yellow-500"></i>
                     </div>
@@ -56,9 +62,48 @@
                         <h3 class="text-2xl font-bold text-titleColor">5.00</h3>
                         <p class="text-descriptionColor">Trust Pilot Ratings</p>
                     </div>
-                 </div>
+                </div>
             </div>
         </header>
+
+        <!-- Our Featured Products section -->
+        <section class="mt-10 lg:mt-20">
+            <!-- title container -->
+            <div class="text-center">
+                <h1 class="text-titleColor text-2xl md:text-4xl font-bold">Our Featured Products</h1>
+                <p class="text-descriptionColor my-3 lg:w-3/4 mx-auto">There are many variations of passages of Lorem
+                    Ipsum available, but the majority have suffered alteration in some form, by injected humour, or
+                    randomised words which don't look even slightly believable. </p>
+            </div>
+
+            <!-- our featured card container -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 mt-5">
+                <!-- card-1 -->
+                <div class="bg-gradient-to-t from-whiteColor to-cardGradientColor_1 rounded-lg p-8 text-center">
+                    <img class="w-3/4 h-3/5 mx-auto" src="./images/tea-1.png" alt="card Milk tea photos">
+                    <h3 class="text-titleColor text-2xl font-bold mt-5">Milk Tea</h3>
+                    <p class="text-descriptionColor">Creamer could be replaced by fresh milk</p>
+                </div>
+                <!-- card-2 -->
+                <div class="bg-gradient-to-t from-whiteColor to-cardGradientColor_1 rounded-lg p-8 text-center">
+                    <img class="w-3/4 h-3/5 mx-auto" src="./images/tea-2.png" alt="card Milk tea photos">
+                    <h3 class="text-titleColor text-2xl font-bold mt-5">Strow Tea</h3>
+                    <p class="text-descriptionColor">Creamer could be replaced by fresh milk</p>
+                </div>
+                <!-- card-3 -->
+                <div class="bg-gradient-to-t from-whiteColor to-cardGradientColor_1 rounded-lg p-8 text-center">
+                    <img class="w-3/4 h-3/5 mx-auto" src="./images/tea-3.png" alt="card Milk tea photos">
+                    <h3 class="text-titleColor text-2xl font-bold mt-5">Black Tea</h3>
+                    <p class="text-descriptionColor">Creamer could be replaced by fresh milk</p>
+                </div>
+                <!-- card-4 -->
+                <div class="bg-gradient-to-t from-whiteColor to-cardGradientColor_1 rounded-lg p-8 text-center">
+                    <img class="w-3/4 h-3/5 mx-auto" src="./images/tea-4.png" alt="card Milk tea photos">
+                    <h3 class="text-titleColor text-2xl font-bold mt-5">Lemon Tea</h3>
+                    <p class="text-descriptionColor">Creamer could be replaced by fresh milk</p>
+                </div>
+            </div>
+        </section>
 
     </main>
 </body>
